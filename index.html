@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="owl.carousel.min.css">
+    <link rel="stylesheet" href="owl.theme.default.min.css">
+
+
+</head>
+
+<body>
+    <header>
+        <!-- Barra de navegación -->
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Hombre</a></li>
+                <li><a href="#">Mujer</a></li>
+                <li><a href="#">Niños</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contenido principal -->
+        <section>
+            <h1>Bienvenido a nuestra tienda de ropa</h1>
+            <p>Explora nuestra colección de moda y encuentra tus prendas favoritas.</p>
+            <a href="#" class="btn">Ver productos</a>
+        </section>
+
+        <section>
+            <!-- Productos -->
+            <h2>Nuestros productos</h2>
+            <div class="owl-carousel owl-theme">
+                <div class="product 1">
+                    <img src="https://portalropaempresas.cl/wp-content/uploads/2018/02/camisa-jubae-ristop-outwork-hombre-khaki.jpg"
+                        alt="Producto 1">
+                    <h3>Camisa hombre</h3>
+                    <p>Descripción del producto 1.</p>
+                    <span class="price">$19.99</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product 2">
+                    <img src="https://www.texora.cl/2538-large_default/pantalon-cargo-alerce-80-poly-20-alg-gris-s.jpg"
+                        alt="Producto 2">
+                    <h3>Pantalon hombre</h3>
+                    <p>Descripción del producto 2.</p>
+                    <span class="price">$24.99</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product 3">
+                    <img src="data:image/jpeg;base64,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"
+                        alt="Producto 3">
+                    <h3>Polera hombre</h3>
+                    <p>Descripción del producto 3.</p>
+                    <span class="price">$15.99</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product 4">
+                    <img src="https://contents.mediadecathlon.com/p2110823/k$e32749e3a6df222503fa4a95e6897830/gorro-ski-lana-rosa.jpg?format=auto&quality=40&f=452x452"
+                        alt="Producto 4">
+                    <h3>Gorro mujer</h3>
+                    <p>Descripción del producto 3.</p>
+                    <span class="price">$15.99</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+
+            
+
+        </section>
+    </main>
+
+    <footer>
+        <!-- Pie de página -->
+        <p>Tienda de ropa - Todos los derechos reservados &copy; 2023</p>
+    </footer>
+    <script src="jquery.min.js"></script>
+    <script src="owl.carousel.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
